@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80% ;
+    margin: 200px auto;
+}  
+.form-container{
+    width: 30%;
+    margin: 0 auto;
+    background-color:#f2f2f2;
+    padding: 50px 30px;
+    border-radius: 5px;
+}
+.form-container h2{
+    font-size: 30px;
+    color: brown;
+    text-align: center;
+}
+input, select{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 50%;
+    background-color: #ce2029;
+    border: none;
+    color: cornsilk;
+}
+input::placeholder{
+    text-transform: capitalize;
+}
+input:focus{
+    border-color: red;
+}
